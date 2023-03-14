@@ -1,0 +1,21 @@
+
+#include<stdio.h>
+int main(){
+char ch ;
+int a , b;
+scanf("%d %c %d" , &a , &ch , &b);
+if(a>b && ch=='>' ){
+    printf("Right\n");
+}
+else if(a<b && ch=='<' ){
+    printf("Right\n");
+}
+else if(a==b && ch=='=' ){
+    printf("Right\n");
+}
+else{
+    printf("Wrong\n");
+}
+
+return 0;
+}
