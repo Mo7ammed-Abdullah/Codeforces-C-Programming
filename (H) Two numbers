@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+double a , b , d , x , y , z;
+scanf("%lf %lf" , &a , &b);
+d = a/b;
+x = floor(d) ;
+y = ceil(d);
+z = round(d);
+printf("floor %.0lf / %.0lf = %.0lf\n" , a , b , x);
+printf("ceil %0.lf / %.0lf = %.0lf\n" , a , b , y);
+printf("round %.0lf / %.0lf = %.0lf\n" , a , b , z);
+
+
+return 0;
+}
+
