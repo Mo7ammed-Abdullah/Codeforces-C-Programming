@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+int n , x , y , cnt;
+scanf("%d" , &n);
+cnt = log10(n); /// number of digit eg:0,1,2
+x = n / pow(10,cnt); /// let n=123 , 123/10^2 , hence frst number is 1
+
+if(x%2==0){
+    printf("EVEN\n");
+}
+if(x%2!=0){
+    printf("ODD\n");
+}
+return 0;
+}
+
