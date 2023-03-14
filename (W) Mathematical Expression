@@ -1,0 +1,23 @@
+
+#include<stdio.h>
+int main(){
+char ch ,ch2 ;
+int a , b , c;
+scanf("%d %c %d %c %d" , &a , &ch , &b , &ch2 , &c);
+
+if((a+b)==c || (a-b)==c || (a*b)==c ){
+    printf("Yes");
+}
+else{
+    if(ch=='+'){
+        printf("%d" , a+b);
+    }
+     if(ch=='-'){
+        printf("%d" , a-b);
+    }
+     if(ch=='*'){
+        printf("%d" , a*b);
+    }
+}
+return 0;
+}
