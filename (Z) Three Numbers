@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main(){
+int i , j , cnt=0 , x , y , z , k , s;
+scanf("%d%d" , &k , &s);
+for(x=0 ; x<=k ; x++){
+    for(y=0 ; y<=k ; y++){
+        z = s-(x+y);
+        if(z>=0 && z<=k){
+            cnt++;
+        }
+    }
+}
+printf("%d" , cnt);
+return 0;
+}
+
