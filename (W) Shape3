@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main(){
+int i , x , n , y ,m ,j ;
+
+scanf("%d" , &n);
+  m=n;
+for(i=1 ; i<=n ; i++){
+        x=i;
+    for(j=1 ; j<=n-x ; j++){
+        printf(" ");
+    }
+    for(j=1 ; j<=2*x-1 ; j++){
+        printf("*");
+    }
+    printf("\n");
+}
+for(i=m ; i>=1 ; i--){
+        y=i;
+    for(j=1 ; j<=n-y ; j++){
+        printf(" ");
+    }
+    for(j=1 ; j<=2*y-1 ; j++){
+        printf("*");
+    }
+    printf("\n");
+}
+
+return 0;
+}
