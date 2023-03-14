@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(){
+char s;
+int a , b , c;
+scanf("%d%c%d" , &a , &s , &b);
+if(s=='+'){
+    printf("%d" , a+b);
+}
+if(s=='*'){
+    printf("%d" , a*b);
+}
+if(s=='-'){
+    printf("%d" , a-b);
+}
+if(s=='/'){
+    printf("%d" , a/b);
+}
+
+
+
+
+
+return 0;
+}
+
